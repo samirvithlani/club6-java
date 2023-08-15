@@ -8,6 +8,9 @@ class Bill {
 
 		System.out.println("bill salary =" + salary);
 	}
+	public Bill() {
+		System.out.println("default of billl...");
+	}
 }
 
 public class Microsoft extends Bill {
