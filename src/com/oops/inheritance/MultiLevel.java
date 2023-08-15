@@ -23,13 +23,9 @@ class Demo2 extends Demo1{
 class Demo3 extends Demo2{
 	
 	
-	void yourData() {
-		
-		
+	void yourData() {	
 		System.out.println("your Data " + x + " "+ p);
 	}
-	
-	
 }
 
 
