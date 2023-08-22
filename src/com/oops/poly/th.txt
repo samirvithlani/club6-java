@@ -35,4 +35,34 @@ compile time poly / static binding :-
 	
 run time poly /dynamic binding :-
 	method overriding...
+	
+	parent class method created in child class with same signature 
+	it is called method overriding....
+	
+	accessmodifiers non access modifier return type name (param)
+	
+	use: parent class --> child class
+	
+	havemore bodakdev
+	
+	public String 6oleBhture(){
+	
+		10, 15
+	}
+	
+	havemore.... navrangpura
+	
+	public String 6oleBhture(){
+	
+		10,15
+		12,13
+	}
+	
 	polymorphic object...
+	
+	
+	
+	
+	
+	
+	
