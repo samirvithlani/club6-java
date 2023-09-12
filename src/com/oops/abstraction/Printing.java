@@ -19,6 +19,6 @@ interface Addon{
 	
 }
 
-public class Printing {
+public class Printing implements Serializable{
 
 }
