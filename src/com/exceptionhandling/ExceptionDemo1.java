@@ -27,18 +27,17 @@ public class ExceptionDemo1 {
 //		catch(RuntimeException e) {
 //				
 //		}
-		
-		
+
 		catch (ArithmeticException e) {
 
 			System.out.println("cannot divide by zero..");
-			//e.printStackTrace();
+			// e.printStackTrace();
 			System.out.println(e.getCause());
 			System.out.println(e.getMessage());
 		} catch (InputMismatchException e) {
 
 			System.out.println("please enter digits only..");
-			
+
 		} catch (Exception e) {
 			System.out.println("Something went wrong..");
 		}

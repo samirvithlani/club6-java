@@ -34,7 +34,16 @@ how many ways to handle excpetion????
 2 ways to handle excpetion !!!
 
 try catch and finally block..
-using throws keyword...																							
+using throws keyword...	
+
+
+
+
+in java any predefine or userdefine's class methods throws any exception
+ then compile time exception will be there while using that method....
+
+
+																						
 
 
 
