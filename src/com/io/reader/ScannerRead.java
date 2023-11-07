@@ -25,8 +25,7 @@ public class ScannerRead {
 			System.out.println(count);
 
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("file not found....");
 		}
 
 	}
