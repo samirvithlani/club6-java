@@ -4,16 +4,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.util.Date;
 
 class Student implements Serializable {
 
 	int id;
 	String name;
+	Date bd;
 
-	public Student(int id, String name) {
+	public Student(int id, String name, Date bd) {
 
 		this.id = id;
 		this.name = name;
+		this.bd = bd;
 	}
 
 }
@@ -25,9 +28,9 @@ public class SerilizeDemo {
 
 	public static void main(String[] args) {
 
-		Student student1 = new Student(101, "raj");
-		Student student2 = new Student(102, "parth");
-		Student student3 = new Student(103, "amit");
+		Student student1 = new Student(101, "raj", new Date());
+		Student student2 = new Student(102, "parth", new Date());
+		Student student3 = new Student(103, "amit", new Date());
 
 		Student students[] = new Student[3];
 

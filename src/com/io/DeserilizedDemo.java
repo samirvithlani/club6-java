@@ -17,6 +17,7 @@ public class DeserilizedDemo {
 			Student st = (Student) input.readObject();
 			System.out.println(st.id);
 			System.out.println(st.name);
+			System.out.println(st.bd);
 			input.close();
 			
 
