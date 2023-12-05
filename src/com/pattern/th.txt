@@ -11,3 +11,12 @@ regex character classes
 [a-f[s-z]]
 [a-z&&[^bc]]
 [a-z&&[^d-g]]
+
+regex quantifiers it specify no of occuerrence of pattern...
+
+? [abc]? -> once and not at all [a-z]
++ [abc]+ -->once and more... [a-zA-Z]+ --> any alpha
+* [abc]* --> zero and more...
+{10} [abc]{10} --> only 10 times
+{5,} [abc]{5,} --> min 5 or no limit...[a-z0-9_#]
+{5,8} [abc]{5,8} min 5 and max 8
