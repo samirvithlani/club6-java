@@ -1,0 +1,13 @@
+regex --> regular expression...
+
+Pattern class
+Matcher class
+MatchResult interface
+
+regex character classes
+[abc] -> only single char a b c
+[^abc] -> except abc any char...
+[a-zA-Z] --> all alphabets
+[a-f[s-z]]
+[a-z&&[^bc]]
+[a-z&&[^d-g]]
